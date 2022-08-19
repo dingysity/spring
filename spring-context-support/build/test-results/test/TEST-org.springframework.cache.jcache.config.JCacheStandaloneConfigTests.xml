@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" tests="28" skipped="0" failures="0" errors="0" timestamp="2022-07-19T10:52:05" hostname="PACHIRA_DYH" time="1.262">
+  <properties/>
+  <testcase name="earlyPutWithExceptionVetoPut()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.045"/>
+  <testcase name="removeWithException()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.025"/>
+  <testcase name="cacheExceptionVetoed()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.05"/>
+  <testcase name="cacheWithCustomCacheResolver()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.065"/>
+  <testcase name="earlyRemove()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.048"/>
+  <testcase name="remove()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.069"/>
+  <testcase name="earlyPut()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.067"/>
+  <testcase name="putWithException()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.028"/>
+  <testcase name="removeWithExceptionVetoRemove()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.036"/>
+  <testcase name="cacheWithCustomKeyGenerator()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.033"/>
+  <testcase name="cacheNull()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.062"/>
+  <testcase name="cacheCheckedException()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.049"/>
+  <testcase name="earlyRemoveAll()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.035"/>
+  <testcase name="put()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.047"/>
+  <testcase name="earlyRemoveAllWithExceptionVetoRemove()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.032"/>
+  <testcase name="earlyPutWithException()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.037"/>
+  <testcase name="cache()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.08"/>
+  <testcase name="earlyRemoveAllWithException()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.067"/>
+  <testcase name="earlyRemoveWithException()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.031"/>
+  <testcase name="cacheAlwaysInvoke()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.028"/>
+  <testcase name="removeAllWithExceptionVetoRemove()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.028"/>
+  <testcase name="earlyRemoveWithExceptionVetoRemove()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.032"/>
+  <testcase name="removeAll()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.069"/>
+  <testcase name="removeAllWithException()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.044"/>
+  <testcase name="cacheWithPartialKey()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.022"/>
+  <testcase name="putWithExceptionVetoPut()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.031"/>
+  <testcase name="cacheException()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.022"/>
+  <testcase name="cacheExceptionRewriteCallStack()" classname="org.springframework.cache.jcache.config.JCacheStandaloneConfigTests" time="0.046"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

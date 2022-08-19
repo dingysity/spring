@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="spring-aop">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/spring-aop" />
+      <root url="file://$PROJECT_DIR$/spring-core" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/spring-aop/src/main/java" />
+      <root url="file://$PROJECT_DIR$/spring-aop/src/testFixtures/java" />
+      <root url="file://$PROJECT_DIR$/spring-aop/src/test/java" />
+      <root url="file://$PROJECT_DIR$/spring-aspects/src/main/java" />
+      <root url="file://$PROJECT_DIR$/spring-aspects/src/test/java" />
+      <root url="file://$PROJECT_DIR$/spring-core" />
+      <root url="file://$PROJECT_DIR$/spring-core/src/jmh/java" />
+      <root url="file://$PROJECT_DIR$/spring-core/src/main/java" />
+      <root url="file://$PROJECT_DIR$/spring-core/src/testFixtures/java" />
+      <root url="file://$PROJECT_DIR$/spring-core/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

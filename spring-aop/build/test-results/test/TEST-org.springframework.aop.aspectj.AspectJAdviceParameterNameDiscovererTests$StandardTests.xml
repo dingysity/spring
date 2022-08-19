@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" tests="30" skipped="0" failures="0" errors="0" timestamp="2022-07-19T10:50:43" hostname="PACHIRA_DYH" time="0.185">
+  <properties/>
+  <testcase name="allTogetherNow()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.001"/>
+  <testcase name="thisBindingTwoCandidates()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.001"/>
+  <testcase name="noArgs()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.001"/>
+  <testcase name="returningNoCandidates()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.001"/>
+  <testcase name="returning()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.0"/>
+  <testcase name="referenceBinding()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.001"/>
+  <testcase name="targetAndPrimitive()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.004"/>
+  <testcase name="oneThrowable()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.001"/>
+  <testcase name="thisAndPrimitive()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.001"/>
+  <testcase name="joinPointOnly()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.004"/>
+  <testcase name="argsOnePrimitiveOneObject()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.001"/>
+  <testcase name="twoJoinPoints()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.0"/>
+  <testcase name="oneJPAndTwoThrowables()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.001"/>
+  <testcase name="targetBindingOneCandidate()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.029"/>
+  <testcase name="thisBindingOneCandidate()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.015"/>
+  <testcase name="oneJPAndOneThrowable()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.002"/>
+  <testcase name="argsBindingOneObject()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.003"/>
+  <testcase name="throwingAndPrimitive()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.003"/>
+  <testcase name="ambiguousArgsBinding()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.001"/>
+  <testcase name="argsBindingOneObjectTwoCandidates()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.0"/>
+  <testcase name="argsOnePrimitive()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.002"/>
+  <testcase name="ambiguousReturning()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.001"/>
+  <testcase name="targetBindingTwoCandidates()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.001"/>
+  <testcase name="targetBindingWithBadPointcutExpressions()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.005"/>
+  <testcase name="referenceBindingWithAlternateTokenizations()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.001"/>
+  <testcase name="thisBindingWithBadPointcutExpressions()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.002"/>
+  <testcase name="throwableNoCandidates()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.001"/>
+  <testcase name="targetBindingWithAlternateTokenizations()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.002"/>
+  <testcase name="thisBindingWithAlternateTokenizations()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.001"/>
+  <testcase name="joinPointStaticPartOnly()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$StandardTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

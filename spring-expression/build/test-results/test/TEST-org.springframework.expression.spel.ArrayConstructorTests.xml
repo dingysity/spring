@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.expression.spel.ArrayConstructorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-07-19T10:51:17" hostname="PACHIRA_DYH" time="1.115">
+  <properties/>
+  <testcase name="typeArrayConstructors()" classname="org.springframework.expression.spel.ArrayConstructorTests" time="0.873"/>
+  <testcase name="multiDimensionalArrays()" classname="org.springframework.expression.spel.ArrayConstructorTests" time="0.032"/>
+  <testcase name="basicArray()" classname="org.springframework.expression.spel.ArrayConstructorTests" time="0.003"/>
+  <testcase name="primitiveTypeArrayConstructors()" classname="org.springframework.expression.spel.ArrayConstructorTests" time="0.041"/>
+  <testcase name="primitiveTypeArrayConstructorsElements()" classname="org.springframework.expression.spel.ArrayConstructorTests" time="0.058"/>
+  <testcase name="errorCases()" classname="org.springframework.expression.spel.ArrayConstructorTests" time="0.089"/>
+  <testcase name="conversion()" classname="org.springframework.expression.spel.ArrayConstructorTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

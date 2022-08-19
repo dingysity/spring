@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" tests="30" skipped="0" failures="0" errors="0" timestamp="2022-07-19T10:52:01" hostname="PACHIRA_DYH" time="3.951">
+  <properties/>
+  <testcase name="earlyPutWithExceptionVetoPut()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.867"/>
+  <testcase name="removeWithException()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.24"/>
+  <testcase name="cacheExceptionVetoed()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.292"/>
+  <testcase name="cacheWithCustomCacheResolver()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.118"/>
+  <testcase name="earlyRemove()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.203"/>
+  <testcase name="remove()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.162"/>
+  <testcase name="earlyPut()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.099"/>
+  <testcase name="putWithException()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.273"/>
+  <testcase name="removeWithExceptionVetoRemove()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.082"/>
+  <testcase name="cacheWithCustomKeyGenerator()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.111"/>
+  <testcase name="cacheNull()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.181"/>
+  <testcase name="cacheCheckedException()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.066"/>
+  <testcase name="earlyRemoveAll()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.063"/>
+  <testcase name="put()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.083"/>
+  <testcase name="earlyRemoveAllWithExceptionVetoRemove()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.101"/>
+  <testcase name="earlyPutWithException()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.138"/>
+  <testcase name="cache()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.045"/>
+  <testcase name="earlyRemoveAllWithException()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.06"/>
+  <testcase name="earlyRemoveWithException()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.04"/>
+  <testcase name="cacheAlwaysInvoke()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.05"/>
+  <testcase name="removeAllWithExceptionVetoRemove()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.065"/>
+  <testcase name="earlyRemoveWithExceptionVetoRemove()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.047"/>
+  <testcase name="removeAll()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.04"/>
+  <testcase name="removeAllWithException()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.051"/>
+  <testcase name="cacheWithPartialKey()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.041"/>
+  <testcase name="putWithExceptionVetoPut()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.065"/>
+  <testcase name="cacheException()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.067"/>
+  <testcase name="cacheExceptionRewriteCallStack()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.074"/>
+  <testcase name="testCacheErrorHandler()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.049"/>
+  <testcase name="cacheResolver()" classname="org.springframework.cache.jcache.config.JCacheNamespaceDrivenTests" time="0.134"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

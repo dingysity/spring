@@ -1,0 +1,889 @@
+32&===> Expression 'true++' - AST start
+32OpInc  value:true++
+32  BooleanLiteral  value:true
+32$===> Expression 'true++' - AST end
+32'===> Expression '--false' - AST start
+32OpDec  value:false--
+32  BooleanLiteral  value:false
+32%===> Expression '--false' - AST end
+32*===> Expression 'true=false' - AST start
+32'Assign  value:true=false  #children:2
+32  BooleanLiteral  value:true
+32  BooleanLiteral  value:false
+32(===> Expression 'true=false' - AST end
+32$===> Expression '12++' - AST start
+32OpInc  value:12++
+32  IntLiteral  value:12
+32"===> Expression '12++' - AST end
+32&===> Expression '--1222' - AST start
+32OpDec  value:1222--
+32  IntLiteral  value:1222
+32$===> Expression '--1222' - AST end
+32%===> Expression '12=16' - AST start
+32"Assign  value:12=16  #children:2
+32  IntLiteral  value:12
+32  IntLiteral  value:16
+32#===> Expression '12=16' - AST end
+32&===> Expression '1.0d++' - AST start
+32OpInc  value:1.0++
+32  RealLiteral  value:1.0
+32$===> Expression '1.0d++' - AST end
+32&===> Expression '--3.4d' - AST start
+32OpDec  value:3.4--
+32  RealLiteral  value:3.4
+32$===> Expression '--3.4d' - AST end
+32)===> Expression '1.0d=3.2d' - AST start
+32$Assign  value:1.0=3.2  #children:2
+32  RealLiteral  value:1.0
+32  RealLiteral  value:3.2
+32'===> Expression '1.0d=3.2d' - AST end
+32&===> Expression 'null++' - AST start
+32OpInc  value:null++
+32  NullLiteral  value:null
+32$===> Expression 'null++' - AST end
+32&===> Expression '--null' - AST start
+32OpDec  value:null--
+32  NullLiteral  value:null
+32$===> Expression '--null' - AST end
+32)===> Expression 'null=null' - AST start
+32&Assign  value:null=null  #children:2
+32  NullLiteral  value:null
+32  NullLiteral  value:null
+32'===> Expression 'null=null' - AST end
+32(===> Expression 'null=123' - AST start
+32%Assign  value:null=123  #children:2
+32  NullLiteral  value:null
+32  IntLiteral  value:123
+32&===> Expression 'null=123' - AST end
+321===> Expression '(true && false)++' - AST start
+32!OpInc  value:(true and false)++
+32.  OpAnd  value:(true and false)  #children:2
+32     BooleanLiteral  value:true
+32!    BooleanLiteral  value:false
+32/===> Expression '(true && false)++' - AST end
+322===> Expression '--(false AND true)' - AST start
+32!OpDec  value:(false and true)--
+32.  OpAnd  value:(false and true)  #children:2
+32!    BooleanLiteral  value:false
+32     BooleanLiteral  value:true
+320===> Expression '--(false AND true)' - AST end
+32?===> Expression '(true && false)=(false && true)' - AST start
+32>Assign  value:(true and false)=(false and true)  #children:2
+32.  OpAnd  value:(true and false)  #children:2
+32     BooleanLiteral  value:true
+32!    BooleanLiteral  value:false
+32.  OpAnd  value:(false and true)  #children:2
+32!    BooleanLiteral  value:false
+32     BooleanLiteral  value:true
+32====> Expression '(true && false)=(false && true)' - AST end
+32'===> Expression '(3/4)++' - AST start
+32OpInc  value:(3 / 4)++
+32(  OpDivide  value:(3 / 4)  #children:2
+32    IntLiteral  value:3
+32    IntLiteral  value:4
+32%===> Expression '(3/4)++' - AST end
+32'===> Expression '--(2/5)' - AST start
+32OpDec  value:(2 / 5)--
+32(  OpDivide  value:(2 / 5)  #children:2
+32    IntLiteral  value:2
+32    IntLiteral  value:5
+32%===> Expression '--(2/5)' - AST end
+32+===> Expression '(1/2)=(3/4)' - AST start
+32,Assign  value:(1 / 2)=(3 / 4)  #children:2
+32(  OpDivide  value:(1 / 2)  #children:2
+32    IntLiteral  value:1
+32    IntLiteral  value:2
+32(  OpDivide  value:(3 / 4)  #children:2
+32    IntLiteral  value:3
+32    IntLiteral  value:4
+32)===> Expression '(1/2)=(3/4)' - AST end
+32(===> Expression '(3==4)++' - AST start
+32OpInc  value:(3 == 4)++
+32%  OpEQ  value:(3 == 4)  #children:2
+32    IntLiteral  value:3
+32    IntLiteral  value:4
+32&===> Expression '(3==4)++' - AST end
+32(===> Expression '--(2==5)' - AST start
+32OpDec  value:(2 == 5)--
+32%  OpEQ  value:(2 == 5)  #children:2
+32    IntLiteral  value:2
+32    IntLiteral  value:5
+32&===> Expression '--(2==5)' - AST end
+32-===> Expression '(1==2)=(3==4)' - AST start
+32.Assign  value:(1 == 2)=(3 == 4)  #children:2
+32%  OpEQ  value:(1 == 2)  #children:2
+32    IntLiteral  value:1
+32    IntLiteral  value:2
+32%  OpEQ  value:(3 == 4)  #children:2
+32    IntLiteral  value:3
+32    IntLiteral  value:4
+32+===> Expression '(1==2)=(3==4)' - AST end
+32(===> Expression '(3>=4)++' - AST start
+32OpInc  value:(3 >= 4)++
+32%  OpGE  value:(3 >= 4)  #children:2
+32    IntLiteral  value:3
+32    IntLiteral  value:4
+32&===> Expression '(3>=4)++' - AST end
+32(===> Expression '--(2>=5)' - AST start
+32OpDec  value:(2 >= 5)--
+32%  OpGE  value:(2 >= 5)  #children:2
+32    IntLiteral  value:2
+32    IntLiteral  value:5
+32&===> Expression '--(2>=5)' - AST end
+32-===> Expression '(1>=2)=(3>=4)' - AST start
+32.Assign  value:(1 >= 2)=(3 >= 4)  #children:2
+32%  OpGE  value:(1 >= 2)  #children:2
+32    IntLiteral  value:1
+32    IntLiteral  value:2
+32%  OpGE  value:(3 >= 4)  #children:2
+32    IntLiteral  value:3
+32    IntLiteral  value:4
+32+===> Expression '(1>=2)=(3>=4)' - AST end
+32'===> Expression '(3>4)++' - AST start
+32OpInc  value:(3 > 4)++
+32$  OpGT  value:(3 > 4)  #children:2
+32    IntLiteral  value:3
+32    IntLiteral  value:4
+32%===> Expression '(3>4)++' - AST end
+32'===> Expression '--(2>5)' - AST start
+32OpDec  value:(2 > 5)--
+32$  OpGT  value:(2 > 5)  #children:2
+32    IntLiteral  value:2
+32    IntLiteral  value:5
+32%===> Expression '--(2>5)' - AST end
+32+===> Expression '(1>2)=(3>4)' - AST start
+32,Assign  value:(1 > 2)=(3 > 4)  #children:2
+32$  OpGT  value:(1 > 2)  #children:2
+32    IntLiteral  value:1
+32    IntLiteral  value:2
+32$  OpGT  value:(3 > 4)  #children:2
+32    IntLiteral  value:3
+32    IntLiteral  value:4
+32)===> Expression '(1>2)=(3>4)' - AST end
+32(===> Expression '(3<=4)++' - AST start
+32OpInc  value:(3 <= 4)++
+32%  OpLE  value:(3 <= 4)  #children:2
+32    IntLiteral  value:3
+32    IntLiteral  value:4
+32&===> Expression '(3<=4)++' - AST end
+32(===> Expression '--(2<=5)' - AST start
+32OpDec  value:(2 <= 5)--
+32%  OpLE  value:(2 <= 5)  #children:2
+32    IntLiteral  value:2
+32    IntLiteral  value:5
+32&===> Expression '--(2<=5)' - AST end
+32-===> Expression '(1<=2)=(3<=4)' - AST start
+32.Assign  value:(1 <= 2)=(3 <= 4)  #children:2
+32%  OpLE  value:(1 <= 2)  #children:2
+32    IntLiteral  value:1
+32    IntLiteral  value:2
+32%  OpLE  value:(3 <= 4)  #children:2
+32    IntLiteral  value:3
+32    IntLiteral  value:4
+32+===> Expression '(1<=2)=(3<=4)' - AST end
+32'===> Expression '(3<4)++' - AST start
+32OpInc  value:(3 < 4)++
+32$  OpLT  value:(3 < 4)  #children:2
+32    IntLiteral  value:3
+32    IntLiteral  value:4
+32%===> Expression '(3<4)++' - AST end
+32'===> Expression '--(2<5)' - AST start
+32OpDec  value:(2 < 5)--
+32$  OpLT  value:(2 < 5)  #children:2
+32    IntLiteral  value:2
+32    IntLiteral  value:5
+32%===> Expression '--(2<5)' - AST end
+32+===> Expression '(1<2)=(3<4)' - AST start
+32,Assign  value:(1 < 2)=(3 < 4)  #children:2
+32$  OpLT  value:(1 < 2)  #children:2
+32    IntLiteral  value:1
+32    IntLiteral  value:2
+32$  OpLT  value:(3 < 4)  #children:2
+32    IntLiteral  value:3
+32    IntLiteral  value:4
+32)===> Expression '(1<2)=(3<4)' - AST end
+32'===> Expression '(3-4)++' - AST start
+32OpInc  value:(3 - 4)++
+32'  OpMinus  value:(3 - 4)  #children:2
+32    IntLiteral  value:3
+32    IntLiteral  value:4
+32%===> Expression '(3-4)++' - AST end
+32'===> Expression '--(2-5)' - AST start
+32OpDec  value:(2 - 5)--
+32'  OpMinus  value:(2 - 5)  #children:2
+32    IntLiteral  value:2
+32    IntLiteral  value:5
+32%===> Expression '--(2-5)' - AST end
+32+===> Expression '(1-2)=(3-4)' - AST start
+32,Assign  value:(1 - 2)=(3 - 4)  #children:2
+32'  OpMinus  value:(1 - 2)  #children:2
+32    IntLiteral  value:1
+32    IntLiteral  value:2
+32'  OpMinus  value:(3 - 4)  #children:2
+32    IntLiteral  value:3
+32    IntLiteral  value:4
+32)===> Expression '(1-2)=(3-4)' - AST end
+32'===> Expression '(3%4)++' - AST start
+32OpInc  value:(3 % 4)++
+32)  OpModulus  value:(3 % 4)  #children:2
+32    IntLiteral  value:3
+32    IntLiteral  value:4
+32%===> Expression '(3%4)++' - AST end
+32'===> Expression '--(2%5)' - AST start
+32OpDec  value:(2 % 5)--
+32)  OpModulus  value:(2 % 5)  #children:2
+32    IntLiteral  value:2
+32    IntLiteral  value:5
+32%===> Expression '--(2%5)' - AST end
+32+===> Expression '(1%2)=(3%4)' - AST start
+32,Assign  value:(1 % 2)=(3 % 4)  #children:2
+32)  OpModulus  value:(1 % 2)  #children:2
+32    IntLiteral  value:1
+32    IntLiteral  value:2
+32)  OpModulus  value:(3 % 4)  #children:2
+32    IntLiteral  value:3
+32    IntLiteral  value:4
+32)===> Expression '(1%2)=(3%4)' - AST end
+32'===> Expression '(3*4)++' - AST start
+32OpInc  value:(3 * 4)++
+32*  OpMultiply  value:(3 * 4)  #children:2
+32    IntLiteral  value:3
+32    IntLiteral  value:4
+32%===> Expression '(3*4)++' - AST end
+32'===> Expression '--(2*5)' - AST start
+32OpDec  value:(2 * 5)--
+32*  OpMultiply  value:(2 * 5)  #children:2
+32    IntLiteral  value:2
+32    IntLiteral  value:5
+32%===> Expression '--(2*5)' - AST end
+32+===> Expression '(1*2)=(3*4)' - AST start
+32,Assign  value:(1 * 2)=(3 * 4)  #children:2
+32*  OpMultiply  value:(1 * 2)  #children:2
+32    IntLiteral  value:1
+32    IntLiteral  value:2
+32*  OpMultiply  value:(3 * 4)  #children:2
+32    IntLiteral  value:3
+32    IntLiteral  value:4
+32)===> Expression '(1*2)=(3*4)' - AST end
+32(===> Expression '(3!=4)++' - AST start
+32OpInc  value:(3 != 4)++
+32%  OpNE  value:(3 != 4)  #children:2
+32    IntLiteral  value:3
+32    IntLiteral  value:4
+32&===> Expression '(3!=4)++' - AST end
+32(===> Expression '--(2!=5)' - AST start
+32OpDec  value:(2 != 5)--
+32%  OpNE  value:(2 != 5)  #children:2
+32    IntLiteral  value:2
+32    IntLiteral  value:5
+32&===> Expression '--(2!=5)' - AST end
+32-===> Expression '(1!=2)=(3!=4)' - AST start
+32.Assign  value:(1 != 2)=(3 != 4)  #children:2
+32%  OpNE  value:(1 != 2)  #children:2
+32    IntLiteral  value:1
+32    IntLiteral  value:2
+32%  OpNE  value:(3 != 4)  #children:2
+32    IntLiteral  value:3
+32    IntLiteral  value:4
+32+===> Expression '(1!=2)=(3!=4)' - AST end
+321===> Expression '(true || false)++' - AST start
+32 OpInc  value:(true or false)++
+32,  OpOr  value:(true or false)  #children:2
+32     BooleanLiteral  value:true
+32!    BooleanLiteral  value:false
+32/===> Expression '(true || false)++' - AST end
+321===> Expression '--(false OR true)' - AST start
+32 OpDec  value:(false or true)--
+32,  OpOr  value:(false or true)  #children:2
+32!    BooleanLiteral  value:false
+32     BooleanLiteral  value:true
+32/===> Expression '--(false OR true)' - AST end
+32?===> Expression '(true || false)=(false OR true)' - AST start
+32<Assign  value:(true or false)=(false or true)  #children:2
+32,  OpOr  value:(true or false)  #children:2
+32     BooleanLiteral  value:true
+32!    BooleanLiteral  value:false
+32,  OpOr  value:(false or true)  #children:2
+32!    BooleanLiteral  value:false
+32     BooleanLiteral  value:true
+32====> Expression '(true || false)=(false OR true)' - AST end
+32'===> Expression '(3+4)++' - AST start
+32OpInc  value:(3 + 4)++
+32&  OpPlus  value:(3 + 4)  #children:2
+32    IntLiteral  value:3
+32    IntLiteral  value:4
+32%===> Expression '(3+4)++' - AST end
+32'===> Expression '--(2+5)' - AST start
+32OpDec  value:(2 + 5)--
+32&  OpPlus  value:(2 + 5)  #children:2
+32    IntLiteral  value:2
+32    IntLiteral  value:5
+32%===> Expression '--(2+5)' - AST end
+32+===> Expression '(1+2)=(3+4)' - AST start
+32,Assign  value:(1 + 2)=(3 + 4)  #children:2
+32&  OpPlus  value:(1 + 2)  #children:2
+32    IntLiteral  value:1
+32    IntLiteral  value:2
+32&  OpPlus  value:(3 + 4)  #children:2
+32    IntLiteral  value:3
+32    IntLiteral  value:4
+32)===> Expression '(1+2)=(3+4)' - AST end
+32&===> Expression '1.0d++' - AST start
+32OpInc  value:1.0++
+32  RealLiteral  value:1.0
+32$===> Expression '1.0d++' - AST end
+32&===> Expression '--2.0d' - AST start
+32OpDec  value:2.0--
+32  RealLiteral  value:2.0
+32$===> Expression '--2.0d' - AST end
+32-===> Expression '(1.0d)=(3.0d)' - AST start
+32$Assign  value:1.0=3.0  #children:2
+32  RealLiteral  value:1.0
+32  RealLiteral  value:3.0
+32+===> Expression '(1.0d)=(3.0d)' - AST end
+32&===> Expression '1.0f++' - AST start
+32OpInc  value:1.0++
+32  FloatLiteral  value:1.0
+32$===> Expression '1.0f++' - AST end
+32&===> Expression '--2.0f' - AST start
+32OpDec  value:2.0--
+32  FloatLiteral  value:2.0
+32$===> Expression '--2.0f' - AST end
+32-===> Expression '(1.0f)=(3.0f)' - AST start
+32$Assign  value:1.0=3.0  #children:2
+32  FloatLiteral  value:1.0
+32  FloatLiteral  value:3.0
+32+===> Expression '(1.0f)=(3.0f)' - AST end
+32'===> Expression ''abc'++' - AST start
+32OpInc  value:'abc'++
+32  StringLiteral  value:'abc'
+32%===> Expression ''abc'++' - AST end
+32'===> Expression '--'def'' - AST start
+32OpDec  value:'def'--
+32  StringLiteral  value:'def'
+32%===> Expression '--'def'' - AST end
+32+===> Expression ''abc'='def'' - AST start
+32(Assign  value:'abc'='def'  #children:2
+32  StringLiteral  value:'abc'
+32  StringLiteral  value:'def'
+32)===> Expression ''abc'='def'' - AST end
+323===> Expression '(true?true:false)++' - AST start
+32$OpInc  value:true ? true : false++
+323  Ternary  value:true ? true : false  #children:3
+32     BooleanLiteral  value:true
+32     BooleanLiteral  value:true
+32!    BooleanLiteral  value:false
+321===> Expression '(true?true:false)++' - AST end
+323===> Expression '--(true?true:false)' - AST start
+32$OpDec  value:true ? true : false--
+323  Ternary  value:true ? true : false  #children:3
+32     BooleanLiteral  value:true
+32     BooleanLiteral  value:true
+32!    BooleanLiteral  value:false
+321===> Expression '--(true?true:false)' - AST end
+32C===> Expression '(true?true:false)=(true?true:false)' - AST start
+32DAssign  value:true ? true : false=true ? true : false  #children:2
+323  Ternary  value:true ? true : false  #children:3
+32     BooleanLiteral  value:true
+32     BooleanLiteral  value:true
+32!    BooleanLiteral  value:false
+323  Ternary  value:true ? true : false  #children:3
+32     BooleanLiteral  value:true
+32     BooleanLiteral  value:true
+32!    BooleanLiteral  value:false
+32A===> Expression '(true?true:false)=(true?true:false)' - AST end
+32+===> Expression 'T(String)++' - AST start
+32OpInc  value:T(String)++
+32"  TypeReference  value:T(String)
+32'    QualifiedIdentifier  value:String
+32       Identifier  value:String
+32)===> Expression 'T(String)++' - AST end
+32,===> Expression '--T(Integer)' - AST start
+32OpDec  value:T(Integer)--
+32#  TypeReference  value:T(Integer)
+32(    QualifiedIdentifier  value:Integer
+32!      Identifier  value:Integer
+32*===> Expression '--T(Integer)' - AST end
+324===> Expression 'T(String)=T(Integer)' - AST start
+321Assign  value:T(String)=T(Integer)  #children:2
+32"  TypeReference  value:T(String)
+32'    QualifiedIdentifier  value:String
+32       Identifier  value:String
+32#  TypeReference  value:T(Integer)
+32(    QualifiedIdentifier  value:Integer
+32!      Identifier  value:Integer
+322===> Expression 'T(String)=T(Integer)' - AST end
+323===> Expression '(3 between {1,5})++' - AST start
+32"OpInc  value:(3 between {1,5})++
+329  OperatorBetween  value:(3 between {1,5})  #children:2
+32    IntLiteral  value:3
+32*    InlineList  value:{1,5}  #children:2
+32      IntLiteral  value:1
+32      IntLiteral  value:5
+321===> Expression '(3 between {1,5})++' - AST end
+323===> Expression '--(3 between {1,5})' - AST start
+32"OpDec  value:(3 between {1,5})--
+329  OperatorBetween  value:(3 between {1,5})  #children:2
+32    IntLiteral  value:3
+32*    InlineList  value:{1,5}  #children:2
+32      IntLiteral  value:1
+32      IntLiteral  value:5
+321===> Expression '--(3 between {1,5})' - AST end
+32C===> Expression '(3 between {1,5})=(3 between {1,5})' - AST start
+32@Assign  value:(3 between {1,5})=(3 between {1,5})  #children:2
+329  OperatorBetween  value:(3 between {1,5})  #children:2
+32    IntLiteral  value:3
+32*    InlineList  value:{1,5}  #children:2
+32      IntLiteral  value:1
+32      IntLiteral  value:5
+329  OperatorBetween  value:(3 between {1,5})  #children:2
+32    IntLiteral  value:3
+32*    InlineList  value:{1,5}  #children:2
+32      IntLiteral  value:1
+32      IntLiteral  value:5
+32A===> Expression '(3 between {1,5})=(3 between {1,5})' - AST end
+32====> Expression '(type instanceof T(String))++' - AST start
+32,OpInc  value:(type instanceof T(String))++
+32F  OperatorInstanceof  value:(type instanceof T(String))  #children:2
+32*    PropertyOrFieldReference  value:type
+32$    TypeReference  value:T(String)
+32)      QualifiedIdentifier  value:String
+32"        Identifier  value:String
+32;===> Expression '(type instanceof T(String))++' - AST end
+32====> Expression '--(type instanceof T(String))' - AST start
+32,OpDec  value:(type instanceof T(String))--
+32F  OperatorInstanceof  value:(type instanceof T(String))  #children:2
+32*    PropertyOrFieldReference  value:type
+32$    TypeReference  value:T(String)
+32)      QualifiedIdentifier  value:String
+32"        Identifier  value:String
+32;===> Expression '--(type instanceof T(String))' - AST end
+32W===> Expression '(type instanceof T(String))=(type instanceof T(String))' - AST start
+32TAssign  value:(type instanceof T(String))=(type instanceof T(String))  #children:2
+32F  OperatorInstanceof  value:(type instanceof T(String))  #children:2
+32*    PropertyOrFieldReference  value:type
+32$    TypeReference  value:T(String)
+32)      QualifiedIdentifier  value:String
+32"        Identifier  value:String
+32F  OperatorInstanceof  value:(type instanceof T(String))  #children:2
+32*    PropertyOrFieldReference  value:type
+32$    TypeReference  value:T(String)
+32)      QualifiedIdentifier  value:String
+32"        Identifier  value:String
+32U===> Expression '(type instanceof T(String))=(type instanceof T(String))' - AST end
+32/===> Expression '(true?:false)++' - AST start
+32OpInc  value:true ?: false++
+32+  Elvis  value:true ?: false  #children:2
+32     BooleanLiteral  value:true
+32!    BooleanLiteral  value:false
+32-===> Expression '(true?:false)++' - AST end
+32/===> Expression '--(true?:false)' - AST start
+32OpDec  value:true ?: false--
+32+  Elvis  value:true ?: false  #children:2
+32     BooleanLiteral  value:true
+32!    BooleanLiteral  value:false
+32-===> Expression '--(true?:false)' - AST end
+32;===> Expression '(true?:false)=(true?:false)' - AST start
+328Assign  value:true ?: false=true ?: false  #children:2
+32+  Elvis  value:true ?: false  #children:2
+32     BooleanLiteral  value:true
+32!    BooleanLiteral  value:false
+32+  Elvis  value:true ?: false  #children:2
+32     BooleanLiteral  value:true
+32!    BooleanLiteral  value:false
+329===> Expression '(true?:false)=(true?:false)' - AST end
+32)===> Expression '(iii++)++' - AST start
+32OpInc  value:iii++++
+32  OpInc  value:iii++
+32)    PropertyOrFieldReference  value:iii
+32'===> Expression '(iii++)++' - AST end
+32)===> Expression '--(++iii)' - AST start
+32OpDec  value:iii++--
+32  OpInc  value:iii++
+32)    PropertyOrFieldReference  value:iii
+32'===> Expression '--(++iii)' - AST end
+32/===> Expression '(iii++)=(++iii)' - AST start
+32(Assign  value:iii++=iii++  #children:2
+32  OpInc  value:iii++
+32)    PropertyOrFieldReference  value:iii
+32  OpInc  value:iii++
+32)    PropertyOrFieldReference  value:iii
+32-===> Expression '(iii++)=(++iii)' - AST end
+32)===> Expression '(iii--)++' - AST start
+32OpInc  value:iii--++
+32  OpDec  value:iii--
+32)    PropertyOrFieldReference  value:iii
+32'===> Expression '(iii--)++' - AST end
+32)===> Expression '--(--iii)' - AST start
+32OpDec  value:iii----
+32  OpDec  value:iii--
+32)    PropertyOrFieldReference  value:iii
+32'===> Expression '--(--iii)' - AST end
+32/===> Expression '(iii--)=(--iii)' - AST start
+32(Assign  value:iii--=iii--  #children:2
+32  OpDec  value:iii--
+32)    PropertyOrFieldReference  value:iii
+32  OpDec  value:iii--
+32)    PropertyOrFieldReference  value:iii
+32-===> Expression '(iii--)=(--iii)' - AST end
+32)===> Expression '(!true)++' - AST start
+32OpInc  value:!true++
+32  OperatorNot  value:!true
+32     BooleanLiteral  value:true
+32'===> Expression '(!true)++' - AST end
+32*===> Expression '--(!false)' - AST start
+32OpDec  value:!false--
+32  OperatorNot  value:!false
+32!    BooleanLiteral  value:false
+32(===> Expression '--(!false)' - AST end
+320===> Expression '(!true)=(!false)' - AST start
+32)Assign  value:!true=!false  #children:2
+32  OperatorNot  value:!true
+32     BooleanLiteral  value:true
+32  OperatorNot  value:!false
+32!    BooleanLiteral  value:false
+32.===> Expression '(!true)=(!false)' - AST end
+32)===> Expression '(iii^2)++' - AST start
+32OpInc  value:(iii ^ 2)++
+32/  OperatorPower  value:(iii ^ 2)  #children:2
+32)    PropertyOrFieldReference  value:iii
+32    IntLiteral  value:2
+32'===> Expression '(iii^2)++' - AST end
+32)===> Expression '--(iii^2)' - AST start
+32OpDec  value:(iii ^ 2)--
+32/  OperatorPower  value:(iii ^ 2)  #children:2
+32)    PropertyOrFieldReference  value:iii
+32    IntLiteral  value:2
+32'===> Expression '--(iii^2)' - AST end
+32/===> Expression '(iii^2)=(iii^3)' - AST start
+320Assign  value:(iii ^ 2)=(iii ^ 3)  #children:2
+32/  OperatorPower  value:(iii ^ 2)  #children:2
+32)    PropertyOrFieldReference  value:iii
+32    IntLiteral  value:2
+32/  OperatorPower  value:(iii ^ 3)  #children:2
+32)    PropertyOrFieldReference  value:iii
+32    IntLiteral  value:3
+32-===> Expression '(iii^2)=(iii^3)' - AST end
+325===> Expression '(new String('abc'))++' - AST start
+32"OpInc  value:new String('abc')++
+32>  ConstructorReference  value:new String('abc')  #children:2
+32'    QualifiedIdentifier  value:String
+32       Identifier  value:String
+32     StringLiteral  value:'abc'
+323===> Expression '(new String('abc'))++' - AST end
+325===> Expression '--(new String('abc'))' - AST start
+32"OpDec  value:new String('abc')--
+32>  ConstructorReference  value:new String('abc')  #children:2
+32'    QualifiedIdentifier  value:String
+32       Identifier  value:String
+32     StringLiteral  value:'abc'
+323===> Expression '--(new String('abc'))' - AST end
+32G===> Expression '(new String('abc'))=(new String('abc'))' - AST start
+32@Assign  value:new String('abc')=new String('abc')  #children:2
+32>  ConstructorReference  value:new String('abc')  #children:2
+32'    QualifiedIdentifier  value:String
+32       Identifier  value:String
+32     StringLiteral  value:'abc'
+32>  ConstructorReference  value:new String('abc')  #children:2
+32'    QualifiedIdentifier  value:String
+32       Identifier  value:String
+32     StringLiteral  value:'abc'
+32E===> Expression '(new String('abc'))=(new String('abc'))' - AST end
+32%===> Expression 'm()++' - AST start
+32OpInc  value:m()++
+32  MethodReference  value:m()
+32#===> Expression 'm()++' - AST end
+32%===> Expression '--m()' - AST start
+32OpDec  value:m()--
+32  MethodReference  value:m()
+32#===> Expression '--m()' - AST end
+32'===> Expression 'm()=m()' - AST start
+32$Assign  value:m()=m()  #children:2
+32  MethodReference  value:m()
+32  MethodReference  value:m()
+32%===> Expression 'm()=m()' - AST end
+328===> Expression '('abc' matches '^a..')++' - AST start
+32'OpInc  value:('abc' matches '^a..')++
+32>  OperatorMatches  value:('abc' matches '^a..')  #children:2
+32     StringLiteral  value:'abc'
+32!    StringLiteral  value:'^a..'
+326===> Expression '('abc' matches '^a..')++' - AST end
+328===> Expression '--('abc' matches '^a..')' - AST start
+32'OpDec  value:('abc' matches '^a..')--
+32>  OperatorMatches  value:('abc' matches '^a..')  #children:2
+32     StringLiteral  value:'abc'
+32!    StringLiteral  value:'^a..'
+326===> Expression '--('abc' matches '^a..')' - AST end
+32M===> Expression '('abc' matches '^a..')=('abc' matches '^a..')' - AST start
+32JAssign  value:('abc' matches '^a..')=('abc' matches '^a..')  #children:2
+32>  OperatorMatches  value:('abc' matches '^a..')  #children:2
+32     StringLiteral  value:'abc'
+32!    StringLiteral  value:'^a..'
+32>  OperatorMatches  value:('abc' matches '^a..')  #children:2
+32     StringLiteral  value:'abc'
+32!    StringLiteral  value:'^a..'
+32K===> Expression '('abc' matches '^a..')=('abc' matches '^a..')' - AST end
+32====> Expression '({1,2,3}.?[#isEven(#this)])++' - AST start
+32*OpInc  value:{1,2,3}.?[#isEven(#this)]++
+32D  CompoundExpression  value:{1,2,3}.?[#isEven(#this)]  #children:2
+32,    InlineList  value:{1,2,3}  #children:3
+32      IntLiteral  value:1
+32      IntLiteral  value:2
+32      IntLiteral  value:3
+32(    Selection  value:?[#isEven(#this)]
+32/      FunctionReference  value:#isEven(#this)
+32(        VariableReference  value:#this
+32;===> Expression '({1,2,3}.?[#isEven(#this)])++' - AST end
+32====> Expression '--({1,2,3}.?[#isEven(#this)])' - AST start
+32*OpDec  value:{1,2,3}.?[#isEven(#this)]--
+32D  CompoundExpression  value:{1,2,3}.?[#isEven(#this)]  #children:2
+32,    InlineList  value:{1,2,3}  #children:3
+32      IntLiteral  value:1
+32      IntLiteral  value:2
+32      IntLiteral  value:3
+32(    Selection  value:?[#isEven(#this)]
+32/      FunctionReference  value:#isEven(#this)
+32(        VariableReference  value:#this
+32;===> Expression '--({1,2,3}.?[#isEven(#this)])' - AST end
+32W===> Expression '({1,2,3}.?[#isEven(#this)])=({1,2,3}.?[#isEven(#this)])' - AST start
+32PAssign  value:{1,2,3}.?[#isEven(#this)]={1,2,3}.?[#isEven(#this)]  #children:2
+32D  CompoundExpression  value:{1,2,3}.?[#isEven(#this)]  #children:2
+32,    InlineList  value:{1,2,3}  #children:3
+32      IntLiteral  value:1
+32      IntLiteral  value:2
+32      IntLiteral  value:3
+32(    Selection  value:?[#isEven(#this)]
+32/      FunctionReference  value:#isEven(#this)
+32(        VariableReference  value:#this
+32D  CompoundExpression  value:{1,2,3}.?[#isEven(#this)]  #children:2
+32,    InlineList  value:{1,2,3}  #children:3
+32      IntLiteral  value:1
+32      IntLiteral  value:2
+32      IntLiteral  value:3
+32(    Selection  value:?[#isEven(#this)]
+32/      FunctionReference  value:#isEven(#this)
+32(        VariableReference  value:#this
+32U===> Expression '({1,2,3}.?[#isEven(#this)])=({1,2,3}.?[#isEven(#this)])' - AST end
+32====> Expression '({1,2,3}.^[#isEven(#this)])++' - AST start
+32*OpInc  value:{1,2,3}.^[#isEven(#this)]++
+32D  CompoundExpression  value:{1,2,3}.^[#isEven(#this)]  #children:2
+32,    InlineList  value:{1,2,3}  #children:3
+32      IntLiteral  value:1
+32      IntLiteral  value:2
+32      IntLiteral  value:3
+32(    Selection  value:^[#isEven(#this)]
+32/      FunctionReference  value:#isEven(#this)
+32(        VariableReference  value:#this
+32;===> Expression '({1,2,3}.^[#isEven(#this)])++' - AST end
+32====> Expression '--({1,2,3}.^[#isEven(#this)])' - AST start
+32*OpDec  value:{1,2,3}.^[#isEven(#this)]--
+32D  CompoundExpression  value:{1,2,3}.^[#isEven(#this)]  #children:2
+32,    InlineList  value:{1,2,3}  #children:3
+32      IntLiteral  value:1
+32      IntLiteral  value:2
+32      IntLiteral  value:3
+32(    Selection  value:^[#isEven(#this)]
+32/      FunctionReference  value:#isEven(#this)
+32(        VariableReference  value:#this
+32;===> Expression '--({1,2,3}.^[#isEven(#this)])' - AST end
+32W===> Expression '({1,2,3}.^[#isEven(#this)])=({1,2,3}.^[#isEven(#this)])' - AST start
+32PAssign  value:{1,2,3}.^[#isEven(#this)]={1,2,3}.^[#isEven(#this)]  #children:2
+32D  CompoundExpression  value:{1,2,3}.^[#isEven(#this)]  #children:2
+32,    InlineList  value:{1,2,3}  #children:3
+32      IntLiteral  value:1
+32      IntLiteral  value:2
+32      IntLiteral  value:3
+32(    Selection  value:^[#isEven(#this)]
+32/      FunctionReference  value:#isEven(#this)
+32(        VariableReference  value:#this
+32D  CompoundExpression  value:{1,2,3}.^[#isEven(#this)]  #children:2
+32,    InlineList  value:{1,2,3}  #children:3
+32      IntLiteral  value:1
+32      IntLiteral  value:2
+32      IntLiteral  value:3
+32(    Selection  value:^[#isEven(#this)]
+32/      FunctionReference  value:#isEven(#this)
+32(        VariableReference  value:#this
+32U===> Expression '({1,2,3}.^[#isEven(#this)])=({1,2,3}.^[#isEven(#this)])' - AST end
+32====> Expression '({1,2,3}.$[#isEven(#this)])++' - AST start
+32*OpInc  value:{1,2,3}.$[#isEven(#this)]++
+32D  CompoundExpression  value:{1,2,3}.$[#isEven(#this)]  #children:2
+32,    InlineList  value:{1,2,3}  #children:3
+32      IntLiteral  value:1
+32      IntLiteral  value:2
+32      IntLiteral  value:3
+32(    Selection  value:$[#isEven(#this)]
+32/      FunctionReference  value:#isEven(#this)
+32(        VariableReference  value:#this
+32;===> Expression '({1,2,3}.$[#isEven(#this)])++' - AST end
+32====> Expression '--({1,2,3}.$[#isEven(#this)])' - AST start
+32*OpDec  value:{1,2,3}.$[#isEven(#this)]--
+32D  CompoundExpression  value:{1,2,3}.$[#isEven(#this)]  #children:2
+32,    InlineList  value:{1,2,3}  #children:3
+32      IntLiteral  value:1
+32      IntLiteral  value:2
+32      IntLiteral  value:3
+32(    Selection  value:$[#isEven(#this)]
+32/      FunctionReference  value:#isEven(#this)
+32(        VariableReference  value:#this
+32;===> Expression '--({1,2,3}.$[#isEven(#this)])' - AST end
+32W===> Expression '({1,2,3}.$[#isEven(#this)])=({1,2,3}.$[#isEven(#this)])' - AST start
+32PAssign  value:{1,2,3}.$[#isEven(#this)]={1,2,3}.$[#isEven(#this)]  #children:2
+32D  CompoundExpression  value:{1,2,3}.$[#isEven(#this)]  #children:2
+32,    InlineList  value:{1,2,3}  #children:3
+32      IntLiteral  value:1
+32      IntLiteral  value:2
+32      IntLiteral  value:3
+32(    Selection  value:$[#isEven(#this)]
+32/      FunctionReference  value:#isEven(#this)
+32(        VariableReference  value:#this
+32D  CompoundExpression  value:{1,2,3}.$[#isEven(#this)]  #children:2
+32,    InlineList  value:{1,2,3}  #children:3
+32      IntLiteral  value:1
+32      IntLiteral  value:2
+32      IntLiteral  value:3
+32(    Selection  value:$[#isEven(#this)]
+32/      FunctionReference  value:#isEven(#this)
+32(        VariableReference  value:#this
+32U===> Expression '({1,2,3}.$[#isEven(#this)])=({1,2,3}.$[#isEven(#this)])' - AST end
+32,===> Expression '#isEven(3)++' - AST start
+32OpInc  value:#isEven(3)++
+32'  FunctionReference  value:#isEven(3)
+32    IntLiteral  value:3
+32*===> Expression '#isEven(3)++' - AST end
+32,===> Expression '--#isEven(4)' - AST start
+32OpDec  value:#isEven(4)--
+32'  FunctionReference  value:#isEven(4)
+32    IntLiteral  value:4
+32*===> Expression '--#isEven(4)' - AST end
+325===> Expression '#isEven(3)=#isEven(5)' - AST start
+322Assign  value:#isEven(3)=#isEven(5)  #children:2
+32'  FunctionReference  value:#isEven(3)
+32    IntLiteral  value:3
+32'  FunctionReference  value:#isEven(5)
+32    IntLiteral  value:5
+323===> Expression '#isEven(3)=#isEven(5)' - AST end
+32)===> Expression '#wibble++' - AST start
+32OpInc  value:#wibble++
+32$  VariableReference  value:#wibble
+32'===> Expression '#wibble++' - AST end
+32)===> Expression '--#wibble' - AST start
+32OpDec  value:#wibble--
+32$  VariableReference  value:#wibble
+32'===> Expression '--#wibble' - AST end
+32====> Expression '({1,2,3}.![#isEven(#this)])++' - AST start
+32*OpInc  value:{1,2,3}.![#isEven(#this)]++
+32D  CompoundExpression  value:{1,2,3}.![#isEven(#this)]  #children:2
+32,    InlineList  value:{1,2,3}  #children:3
+32      IntLiteral  value:1
+32      IntLiteral  value:2
+32      IntLiteral  value:3
+32)    Projection  value:![#isEven(#this)]
+32/      FunctionReference  value:#isEven(#this)
+32(        VariableReference  value:#this
+32;===> Expression '({1,2,3}.![#isEven(#this)])++' - AST end
+32====> Expression '--({1,2,3}.![#isEven(#this)])' - AST start
+32*OpDec  value:{1,2,3}.![#isEven(#this)]--
+32D  CompoundExpression  value:{1,2,3}.![#isEven(#this)]  #children:2
+32,    InlineList  value:{1,2,3}  #children:3
+32      IntLiteral  value:1
+32      IntLiteral  value:2
+32      IntLiteral  value:3
+32)    Projection  value:![#isEven(#this)]
+32/      FunctionReference  value:#isEven(#this)
+32(        VariableReference  value:#this
+32;===> Expression '--({1,2,3}.![#isEven(#this)])' - AST end
+32W===> Expression '({1,2,3}.![#isEven(#this)])=({1,2,3}.![#isEven(#this)])' - AST start
+32PAssign  value:{1,2,3}.![#isEven(#this)]={1,2,3}.![#isEven(#this)]  #children:2
+32D  CompoundExpression  value:{1,2,3}.![#isEven(#this)]  #children:2
+32,    InlineList  value:{1,2,3}  #children:3
+32      IntLiteral  value:1
+32      IntLiteral  value:2
+32      IntLiteral  value:3
+32)    Projection  value:![#isEven(#this)]
+32/      FunctionReference  value:#isEven(#this)
+32(        VariableReference  value:#this
+32D  CompoundExpression  value:{1,2,3}.![#isEven(#this)]  #children:2
+32,    InlineList  value:{1,2,3}  #children:3
+32      IntLiteral  value:1
+32      IntLiteral  value:2
+32      IntLiteral  value:3
+32)    Projection  value:![#isEven(#this)]
+32/      FunctionReference  value:#isEven(#this)
+32(        VariableReference  value:#this
+32U===> Expression '({1,2,3}.![#isEven(#this)])=({1,2,3}.![#isEven(#this)])' - AST end
+32+===> Expression '({1,2,3})++' - AST start
+32OpInc  value:{1,2,3}++
+32*  InlineList  value:{1,2,3}  #children:3
+32    IntLiteral  value:1
+32    IntLiteral  value:2
+32    IntLiteral  value:3
+32)===> Expression '({1,2,3})++' - AST end
+32+===> Expression '--({1,2,3})' - AST start
+32OpDec  value:{1,2,3}--
+32*  InlineList  value:{1,2,3}  #children:3
+32    IntLiteral  value:1
+32    IntLiteral  value:2
+32    IntLiteral  value:3
+32)===> Expression '--({1,2,3})' - AST end
+323===> Expression '({1,2,3})=({1,2,3})' - AST start
+32,Assign  value:{1,2,3}={1,2,3}  #children:2
+32*  InlineList  value:{1,2,3}  #children:3
+32    IntLiteral  value:1
+32    IntLiteral  value:2
+32    IntLiteral  value:3
+32*  InlineList  value:{1,2,3}  #children:3
+32    IntLiteral  value:1
+32    IntLiteral  value:2
+32    IntLiteral  value:3
+321===> Expression '({1,2,3})=({1,2,3})' - AST end
+327===> Expression '({'a':1,'b':2,'c':3})++' - AST start
+32$OpInc  value:{'a':1,'b':2,'c':3}++
+325  InlineMap  value:{'a':1,'b':2,'c':3}  #children:6
+32    StringLiteral  value:'a'
+32    IntLiteral  value:1
+32    StringLiteral  value:'b'
+32    IntLiteral  value:2
+32    StringLiteral  value:'c'
+32    IntLiteral  value:3
+325===> Expression '({'a':1,'b':2,'c':3})++' - AST end
+327===> Expression '--({'a':1,'b':2,'c':3})' - AST start
+32$OpDec  value:{'a':1,'b':2,'c':3}--
+325  InlineMap  value:{'a':1,'b':2,'c':3}  #children:6
+32    StringLiteral  value:'a'
+32    IntLiteral  value:1
+32    StringLiteral  value:'b'
+32    IntLiteral  value:2
+32    StringLiteral  value:'c'
+32    IntLiteral  value:3
+325===> Expression '--({'a':1,'b':2,'c':3})' - AST end
+32K===> Expression '({'a':1,'b':2,'c':3})=({'a':1,'b':2,'c':3})' - AST start
+32DAssign  value:{'a':1,'b':2,'c':3}={'a':1,'b':2,'c':3}  #children:2
+325  InlineMap  value:{'a':1,'b':2,'c':3}  #children:6
+32    StringLiteral  value:'a'
+32    IntLiteral  value:1
+32    StringLiteral  value:'b'
+32    IntLiteral  value:2
+32    StringLiteral  value:'c'
+32    IntLiteral  value:3
+325  InlineMap  value:{'a':1,'b':2,'c':3}  #children:6
+32    StringLiteral  value:'a'
+32    IntLiteral  value:1
+32    StringLiteral  value:'b'
+32    IntLiteral  value:2
+32    StringLiteral  value:'c'
+32    IntLiteral  value:3
+32I===> Expression '({'a':1,'b':2,'c':3})=({'a':1,'b':2,'c':3})' - AST end
+32&===> Expression '@foo++' - AST start
+32OpInc  value:@foo++
+32  BeanReference  value:@foo
+32$===> Expression '@foo++' - AST end
+32&===> Expression '--@foo' - AST start
+32OpDec  value:@foo--
+32  BeanReference  value:@foo
+32$===> Expression '--@foo' - AST end
+32)===> Expression '@foo=@bar' - AST start
+32&Assign  value:@foo=@bar  #children:2
+32  BeanReference  value:@foo
+32  BeanReference  value:@bar
+32'===> Expression '@foo=@bar' - AST end

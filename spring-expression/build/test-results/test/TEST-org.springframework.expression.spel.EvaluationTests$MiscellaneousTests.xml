@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.expression.spel.EvaluationTests$MiscellaneousTests" tests="22" skipped="0" failures="0" errors="0" timestamp="2022-07-19T10:51:20" hostname="PACHIRA_DYH" time="0.502">
+  <properties/>
+  <testcase name="numbers()" classname="org.springframework.expression.spel.EvaluationTests$MiscellaneousTests" time="0.002"/>
+  <testcase name="safeNavigation()" classname="org.springframework.expression.spel.EvaluationTests$MiscellaneousTests" time="0.004"/>
+  <testcase name="collectionGrowingViaIndexer()" classname="org.springframework.expression.spel.EvaluationTests$MiscellaneousTests" time="0.035"/>
+  <testcase name="customMethodFilter()" classname="org.springframework.expression.spel.EvaluationTests$MiscellaneousTests" time="0.021"/>
+  <testcase name="stringType()" classname="org.springframework.expression.spel.EvaluationTests$MiscellaneousTests" time="0.015"/>
+  <testcase name="elvisOperator()" classname="org.springframework.expression.spel.EvaluationTests$MiscellaneousTests" time="0.001"/>
+  <testcase name="initializingCollectionElementsOnWrite()" classname="org.springframework.expression.spel.EvaluationTests$MiscellaneousTests" time="0.016"/>
+  <testcase name="assignmentToVariables()" classname="org.springframework.expression.spel.EvaluationTests$MiscellaneousTests" time="0.003"/>
+  <testcase name="comparison()" classname="org.springframework.expression.spel.EvaluationTests$MiscellaneousTests" time="0.024"/>
+  <testcase name="indexer03()" classname="org.springframework.expression.spel.EvaluationTests$MiscellaneousTests" time="0.002"/>
+  <testcase name="advancedNumerics()" classname="org.springframework.expression.spel.EvaluationTests$MiscellaneousTests" time="0.029"/>
+  <testcase name="createMapsOnAttemptToIndexNull()" classname="org.springframework.expression.spel.EvaluationTests$MiscellaneousTests" time="0.014"/>
+  <testcase name="createObjectsOnAttemptToReferenceNull()" classname="org.springframework.expression.spel.EvaluationTests$MiscellaneousTests" time="0.004"/>
+  <testcase name="resolvingList()" classname="org.springframework.expression.spel.EvaluationTests$MiscellaneousTests" time="0.006"/>
+  <testcase name="mixingOperators()" classname="org.springframework.expression.spel.EvaluationTests$MiscellaneousTests" time="0.001"/>
+  <testcase name="createListsOnAttemptToIndexNull01()" classname="org.springframework.expression.spel.EvaluationTests$MiscellaneousTests" time="0.029"/>
+  <testcase name="caseInsensitiveNullLiterals()" classname="org.springframework.expression.spel.EvaluationTests$MiscellaneousTests" time="0.001"/>
+  <testcase name="matchesWithPatternAccessThreshold()" classname="org.springframework.expression.spel.EvaluationTests$MiscellaneousTests" time="0.188"/>
+  <testcase name="limitCollectionGrowing()" classname="org.springframework.expression.spel.EvaluationTests$MiscellaneousTests" time="0.003"/>
+  <testcase name="resolvingString()" classname="org.springframework.expression.spel.EvaluationTests$MiscellaneousTests" time="0.004"/>
+  <testcase name="indexerError()" classname="org.springframework.expression.spel.EvaluationTests$MiscellaneousTests" time="0.003"/>
+  <testcase name="operatorVariants()" classname="org.springframework.expression.spel.EvaluationTests$MiscellaneousTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.cache.ehcache.EhCacheSupportTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-07-19T10:51:55" hostname="PACHIRA_DYH" time="0.692">
+  <properties/>
+  <testcase name="testEhCacheFactoryBeanWithExplicitCacheManager()" classname="org.springframework.cache.ehcache.EhCacheSupportTests" time="0.213"/>
+  <testcase name="testEhCacheFactoryBeanWithDefaultCacheManager()" classname="org.springframework.cache.ehcache.EhCacheSupportTests" time="0.071"/>
+  <testcase name="testBlankCacheManager()" classname="org.springframework.cache.ehcache.EhCacheSupportTests" time="0.043"/>
+  <testcase name="testEhCacheFactoryBeanWithBlockingCache()" classname="org.springframework.cache.ehcache.EhCacheSupportTests" time="0.064"/>
+  <testcase name="testAcceptExistingCacheManager()" classname="org.springframework.cache.ehcache.EhCacheSupportTests" time="0.04"/>
+  <testcase name="testCacheManagerConflict()" classname="org.springframework.cache.ehcache.EhCacheSupportTests" time="0.093"/>
+  <testcase name="testEhCacheFactoryBeanWithSelfPopulatingCache()" classname="org.springframework.cache.ehcache.EhCacheSupportTests" time="0.09"/>
+  <testcase name="testEhCacheFactoryBeanWithUpdatingSelfPopulatingCache()" classname="org.springframework.cache.ehcache.EhCacheSupportTests" time="0.068"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

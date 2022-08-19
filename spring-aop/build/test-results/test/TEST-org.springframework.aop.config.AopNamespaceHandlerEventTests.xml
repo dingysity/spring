@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.config.AopNamespaceHandlerEventTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-07-19T10:50:44" hostname="PACHIRA_DYH" time="1.739">
+  <properties/>
+  <testcase name="advisorEventsWithPointcutRef()" classname="org.springframework.aop.config.AopNamespaceHandlerEventTests" time="1.33"/>
+  <testcase name="advisorEventsWithDirectPointcut()" classname="org.springframework.aop.config.AopNamespaceHandlerEventTests" time="0.085"/>
+  <testcase name="aspectEvent()" classname="org.springframework.aop.config.AopNamespaceHandlerEventTests" time="0.244"/>
+  <testcase name="pointcutEvents()" classname="org.springframework.aop.config.AopNamespaceHandlerEventTests" time="0.079"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

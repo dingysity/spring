@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$AnnotationTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-07-19T10:50:43" hostname="PACHIRA_DYH" time="0.07">
+  <properties/>
+  <testcase name="atArgs()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$AnnotationTests" time="0.001"/>
+  <testcase name="atThis()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$AnnotationTests" time="0.003"/>
+  <testcase name="atTarget()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$AnnotationTests" time="0.001"/>
+  <testcase name="atWithin()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$AnnotationTests" time="0.002"/>
+  <testcase name="annotationBinding()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$AnnotationTests" time="0.001"/>
+  <testcase name="ambiguousAnnotationTwoVars()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$AnnotationTests" time="0.003"/>
+  <testcase name="ambiguousAnnotationOneVar()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$AnnotationTests" time="0.001"/>
+  <testcase name="annotationMedley()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$AnnotationTests" time="0.001"/>
+  <testcase name="atAnnotation()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$AnnotationTests" time="0.002"/>
+  <testcase name="atWithincode()" classname="org.springframework.aop.aspectj.AspectJAdviceParameterNameDiscovererTests$AnnotationTests" time="0.037"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

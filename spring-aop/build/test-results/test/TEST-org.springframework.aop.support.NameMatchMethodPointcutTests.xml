@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.support.NameMatchMethodPointcutTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-07-19T10:50:56" hostname="PACHIRA_DYH" time="0.043">
+  <properties/>
+  <testcase name="testMatchingOnly()" classname="org.springframework.aop.support.NameMatchMethodPointcutTests" time="0.017"/>
+  <testcase name="testEmpty()" classname="org.springframework.aop.support.NameMatchMethodPointcutTests" time="0.002"/>
+  <testcase name="testSets()" classname="org.springframework.aop.support.NameMatchMethodPointcutTests" time="0.01"/>
+  <testcase name="testEqualsAndHashCode()" classname="org.springframework.aop.support.NameMatchMethodPointcutTests" time="0.002"/>
+  <testcase name="testMatchOneMethod()" classname="org.springframework.aop.support.NameMatchMethodPointcutTests" time="0.001"/>
+  <testcase name="testSerializable()" classname="org.springframework.aop.support.NameMatchMethodPointcutTests" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

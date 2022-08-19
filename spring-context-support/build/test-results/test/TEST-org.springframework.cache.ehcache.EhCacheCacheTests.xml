@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.cache.ehcache.EhCacheCacheTests" tests="13" skipped="1" failures="0" errors="0" timestamp="2022-07-19T10:51:55" hostname="PACHIRA_DYH" time="0.504">
+  <properties/>
+  <testcase name="testCacheGetCallableNotInvokedWithHitNull()" classname="org.springframework.cache.ehcache.EhCacheCacheTests" time="0.039"/>
+  <testcase name="testCacheGetSynchronized()" classname="org.springframework.cache.ehcache.EhCacheCacheTests" time="0.113"/>
+  <testcase name="testCachePutIfAbsent()" classname="org.springframework.cache.ehcache.EhCacheCacheTests" time="0.028"/>
+  <testcase name="testCacheClear()" classname="org.springframework.cache.ehcache.EhCacheCacheTests" time="0.049"/>
+  <testcase name="testCacheRemove()" classname="org.springframework.cache.ehcache.EhCacheCacheTests" time="0.038"/>
+  <testcase name="testCacheGetCallableNotInvokedWithHit()" classname="org.springframework.cache.ehcache.EhCacheCacheTests" time="0.036"/>
+  <testcase name="testCacheName()" classname="org.springframework.cache.ehcache.EhCacheCacheTests" time="0.028"/>
+  <testcase name="testCachePut()" classname="org.springframework.cache.ehcache.EhCacheCacheTests" time="0.056"/>
+  <testcase name="testCacheGetCallable()" classname="org.springframework.cache.ehcache.EhCacheCacheTests" time="0.024"/>
+  <testcase name="testNativeCache()" classname="org.springframework.cache.ehcache.EhCacheCacheTests" time="0.017"/>
+  <testcase name="testCacheGetCallableFail()" classname="org.springframework.cache.ehcache.EhCacheCacheTests" time="0.02"/>
+  <testcase name="testCacheGetCallableWithNull()" classname="org.springframework.cache.ehcache.EhCacheCacheTests" time="0.021"/>
+  <testcase name="testExpiredElements()" classname="org.springframework.cache.ehcache.EhCacheCacheTests" time="0.001">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

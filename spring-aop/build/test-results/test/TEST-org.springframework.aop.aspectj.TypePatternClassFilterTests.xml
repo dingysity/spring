@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.aspectj.TypePatternClassFilterTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2022-07-19T10:50:44" hostname="PACHIRA_DYH" time="0.093">
+  <properties/>
+  <testcase name="andOrNotReplacement()" classname="org.springframework.aop.aspectj.TypePatternClassFilterTests" time="0.072"/>
+  <testcase name="invalidPattern()" classname="org.springframework.aop.aspectj.TypePatternClassFilterTests" time="0.002"/>
+  <testcase name="testToString()" classname="org.springframework.aop.aspectj.TypePatternClassFilterTests" time="0.001"/>
+  <testcase name="subclassMatching()" classname="org.springframework.aop.aspectj.TypePatternClassFilterTests" time="0.003"/>
+  <testcase name="testHashCode()" classname="org.springframework.aop.aspectj.TypePatternClassFilterTests" time="0.001"/>
+  <testcase name="nullPattern()" classname="org.springframework.aop.aspectj.TypePatternClassFilterTests" time="0.004"/>
+  <testcase name="invocationOfMatchesMethodBlowsUpWhenNoTypePatternHasBeenSet()" classname="org.springframework.aop.aspectj.TypePatternClassFilterTests" time="0.001"/>
+  <testcase name="testEquals()" classname="org.springframework.aop.aspectj.TypePatternClassFilterTests" time="0.002"/>
+  <testcase name="validPatternMatching()" classname="org.springframework.aop.aspectj.TypePatternClassFilterTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

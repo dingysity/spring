@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="spring-core">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/spring-core" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/spring-core" />
+      <root url="file://$PROJECT_DIR$/spring-core/src/jmh/java" />
+      <root url="file://$PROJECT_DIR$/spring-core/src/main/java" />
+      <root url="file://$PROJECT_DIR$/spring-core/src/testFixtures/java" />
+      <root url="file://$PROJECT_DIR$/spring-core/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

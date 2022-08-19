@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.expression.spel.EvaluationTests$RelationalOperatorTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2022-07-19T10:51:20" hostname="PACHIRA_DYH" time="0.097">
+  <properties/>
+  <testcase name="relOperatorGT()" classname="org.springframework.expression.spel.EvaluationTests$RelationalOperatorTests" time="0.001"/>
+  <testcase name="relOperatorLE()" classname="org.springframework.expression.spel.EvaluationTests$RelationalOperatorTests" time="0.001"/>
+  <testcase name="relOperatorLT()" classname="org.springframework.expression.spel.EvaluationTests$RelationalOperatorTests" time="0.001"/>
+  <testcase name="relOperatorGE01()" classname="org.springframework.expression.spel.EvaluationTests$RelationalOperatorTests" time="0.002"/>
+  <testcase name="relOperatorGE02()" classname="org.springframework.expression.spel.EvaluationTests$RelationalOperatorTests" time="0.001"/>
+  <testcase name="relOperatorsMatches01()" classname="org.springframework.expression.spel.EvaluationTests$RelationalOperatorTests" time="0.014"/>
+  <testcase name="relOperatorsMatches02()" classname="org.springframework.expression.spel.EvaluationTests$RelationalOperatorTests" time="0.002"/>
+  <testcase name="relOperatorsMatches03()" classname="org.springframework.expression.spel.EvaluationTests$RelationalOperatorTests" time="0.001"/>
+  <testcase name="relOperatorsMatches04()" classname="org.springframework.expression.spel.EvaluationTests$RelationalOperatorTests" time="0.001"/>
+  <testcase name="relOperatorsMatches05()" classname="org.springframework.expression.spel.EvaluationTests$RelationalOperatorTests" time="0.024"/>
+  <testcase name="relOperatorsInstanceof01()" classname="org.springframework.expression.spel.EvaluationTests$RelationalOperatorTests" time="0.0"/>
+  <testcase name="relOperatorsInstanceof04()" classname="org.springframework.expression.spel.EvaluationTests$RelationalOperatorTests" time="0.013"/>
+  <testcase name="relOperatorsInstanceof05()" classname="org.springframework.expression.spel.EvaluationTests$RelationalOperatorTests" time="0.001"/>
+  <testcase name="relOperatorsInstanceof06()" classname="org.springframework.expression.spel.EvaluationTests$RelationalOperatorTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

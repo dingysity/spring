@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.config.TopLevelAopTagTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-19T10:50:46" hostname="PACHIRA_DYH" time="0.075">
+  <properties/>
+  <testcase name="parse()" classname="org.springframework.aop.config.TopLevelAopTagTests" time="0.075"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

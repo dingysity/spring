@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.expression.spel.EvaluationTests$TernaryOperatorTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-07-19T10:51:20" hostname="PACHIRA_DYH" time="0.021">
+  <properties/>
+  <testcase name="ternaryOperator01()" classname="org.springframework.expression.spel.EvaluationTests$TernaryOperatorTests" time="0.001"/>
+  <testcase name="ternaryOperator02()" classname="org.springframework.expression.spel.EvaluationTests$TernaryOperatorTests" time="0.002"/>
+  <testcase name="ternaryOperator03()" classname="org.springframework.expression.spel.EvaluationTests$TernaryOperatorTests" time="0.002"/>
+  <testcase name="ternaryOperator04()" classname="org.springframework.expression.spel.EvaluationTests$TernaryOperatorTests" time="0.001"/>
+  <testcase name="ternaryOperator05()" classname="org.springframework.expression.spel.EvaluationTests$TernaryOperatorTests" time="0.002"/>
+  <testcase name="ternaryOperatorWithNullValue()" classname="org.springframework.expression.spel.EvaluationTests$TernaryOperatorTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
