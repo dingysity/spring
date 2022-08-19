@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+}
+
+group 'org.springframework'
+version '5.3.22-SNAPSHOT'
+
+repositories {
+    maven {
+        url "https://maven.aliyun.com/repository/public"
+        allowInsecureProtocol = true
+    }
+    maven {
+        url "https://maven.aliyun.com/repository/central"
+        allowInsecureProtocol = true
+    }
+    maven {
+        url "https://maven.aliyun.com/repository/goole"
+        allowInsecureProtocol = true
+    }
+    maven {
+        url "https://maven.aliyun.com/repository/gradle-plugin"
+        allowInsecureProtocol = true
+    }
+    maven {
+        url "https://maven.aliyun.com/repository/spring-plugin"
+        allowInsecureProtocol = true
+    }
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+    api(project(":spring-context"))
+    api(project(":spring-instrument"))
+}
