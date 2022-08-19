@@ -4,6 +4,10 @@
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.8" />
+    <bytecodeTargetLevel target="1.6">
+      <module name="spring.buildSrc" target="11" />
+      <module name="spring.buildSrc.main" target="11" />
+      <module name="spring.buildSrc.test" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
